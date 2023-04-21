@@ -69,8 +69,8 @@
 
 
 <div class="header">
-    @if($ringo->logo)
-        <img src="{{asset('images/'.$ringo->logo)}}">
+    @if($xxx->logo)
+        <img src="{{asset('images/'.$xxx->logo)}}">
     @endif
 </div>
 

@@ -22,7 +22,7 @@ class ResetPassword extends Component {
           <CRow>
             <CCol xs="12" md="12" className="text-center d-flex flex-column align-items-center">
               <CImg
-              src="images/logo-RingoStudio.png"
+              src="images/xxx.png"
               className="mb-2 w-25"
               />
             </CCol>

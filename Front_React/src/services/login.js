@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const urlApp = `http://localhost:8888/ringo_supp/API_Laravel/public`;
+const urlApp = `http://localhost:8888/xxx/API_Laravel/public`;
 
 export const baseUrlApp = axios.create({
     baseURL: urlApp,

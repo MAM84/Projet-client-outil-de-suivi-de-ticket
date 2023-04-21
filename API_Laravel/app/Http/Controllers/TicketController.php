@@ -354,7 +354,7 @@ class TicketController extends Controller
     public function generatePdf(Company $company, string $dateDebut, string $dateFin, string $filter)
     {
         if(Auth::user()->admin || Auth::user()->company_id == $company->id){
-            $ringo = Company::find(1);
+            $xxx = Company::find(1);
 
             if($dateDebut == "null"){
                 $dateDebut1 = "2020-07-06";
@@ -388,7 +388,7 @@ class TicketController extends Controller
             }
             $nbColonnesLeft = floor($nbColonnes/2);
             $nbColonnesRight = ceil($nbColonnes/2);
-            $html = View('pdf.tickets')->with(array('ringo' => $ringo,'tickets' => $tickets, 'company' => $company, 'date' => $date, 'dateDebut' => $dateDebut2, 'dateFin' => $dateFin2, 'filterArrayFile' => $filterArrayFile, 'nbColonnesLeft' => $nbColonnesLeft, 'nbColonnesRight'=>$nbColonnesRight))->render();
+            $html = View('pdf.tickets')->with(array('xxx' => $xxx,'tickets' => $tickets, 'company' => $company, 'date' => $date, 'dateDebut' => $dateDebut2, 'dateFin' => $dateFin2, 'filterArrayFile' => $filterArrayFile, 'nbColonnesLeft' => $nbColonnesLeft, 'nbColonnesRight'=>$nbColonnesRight))->render();
             $htmlpdf = new Html2Pdf('L','A4','fr', true, 'UTF-8', array(10, 10, 10, 10));
             $htmlpdf->writeHTML($html);
             $htmlpdf->output('tickets.pdf');

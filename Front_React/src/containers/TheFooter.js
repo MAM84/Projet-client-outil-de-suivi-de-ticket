@@ -7,7 +7,7 @@ class TheFooter extends Component {
     return (
       <CFooter fixed={false}>
         <div>
-          <span className="ml-1">2020 Ringo Supp</span>
+          <span className="ml-1">2020 xxx</span>
         </div>
       </CFooter>
     )

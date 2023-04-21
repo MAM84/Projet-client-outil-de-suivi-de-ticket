@@ -1,4 +1,4 @@
-<p><i><u>Message de Ringo-Supp : </u></i></p>
+<p><i><u>Message de xxx : </u></i></p>
 
 <p>Bonjour {!! nl2br(e($userFirstName)) !!} {!! nl2br(e($userName)) !!}, un ticket a été créé pour l'entreprise {!! nl2br(e($userCompany)) !!}.</p>
 

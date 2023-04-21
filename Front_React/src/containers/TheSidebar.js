@@ -12,7 +12,7 @@ import {
 } from '@coreui/react'
 
 import CIcon from '@coreui/icons-react'
-import logo from "../images/logo-RingoStudio.png";
+import logo from "../images/xxx.png";
 
 class TheSidebar extends Component{
   constructor(props) {
